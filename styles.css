@@ -69,16 +69,25 @@ footer {
 
 /* Menu Button */
 #menu-btn {
-  font-size: 24px;
-  cursor: pointer;
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  color: #333;
-  background-color: #f4f4f9;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: #333;
+    background-color: #f4f4f9;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+@media (max-width: 768px) {
+  #menu-btn {
+      font-size: 16px; /* Smaller font size */
+      padding: 5px;    /* Smaller padding */
+      top: 9px;       /* Adjust position */
+      left: 9px;
+  }
 }
 
 .novel_line{
