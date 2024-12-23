@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="menu-btn" onclick="openMenu()">&#9776; Menu</button>
+
+    <div id="sideMenu" class="side-menu">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="forward.html">前言</a>
+        <a href="chapter1.html">Chapter 1</a>
+        <a href="chapter2.html">Chapter 2</a>
+        <a href="chapter3.html">Chapter 3</a>
+        
+    </div>
+
+    <header>
+        <h1>神圣而可怕的空气</h1>
+        <p>我的心灵只有在你的怀中才能安息。——圣奥古斯丁</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>关于小说</h2>
+            <p class="novel_line">
+                这么多年, 我一直在寻找 <br>
+              
+                这么多眼泪, 我一直在等待……
+            </p>    
+            <p> 
+                《神圣而可怕的空气》是爱沙​​尼亚作家罗伯特·库维茨于 2013 年创作的一部小说。
+            <p class="novel_introduction">  
+                 1952 年夏天，四姐妹 Maj（5 岁）、Anni（12 岁）、Målin（13 岁）和 Charlotte（14 岁）在去海滩后失踪。书中的主角 Jesper、Khan 和 Tereesz 已经和女孩们成为朋友一段时间了，尤其是 Khan 对 Målin 非常着迷。他们的失踪成为媒体的头条新闻，三个男孩开始寻找他们。一段时间后，他们的父母收到了一封似乎是 Målin 写的信，信中说他们很好，他们和某个“男人”在一起。
+            <br>
+            <br>
+            20 年后，男孩们在一次同学聚会上相遇，虽然大多数人似乎已经忘记了女孩们，但三位主角仍在试图解开女孩们消失的谜团。他们已经 40 多岁了，仍然沉浸在那天在海滩上的时光和未能兑现的承诺中。
+            <p>
+            2023 年底，这本书已绝版，从未正式翻译成英文。然而，粉丝们在 2023 年中期将原书翻译成了英文。下载链接可在此处找到<a href="https://old.reddit.com/r/DiscoElysium/comments/12ysbl1/sacred_and_terrible_air_full_professional/"> 第一版</a>。第二版由 Group Ibex 的粉丝翻译，包括了许多语言和世界构建注释，可在此处获得<a href="https://www.reddit.com/r/DiscoElysium/comments/13e4tle/sacred_and_terrible_air_p%C3%BCha_ja_%C3%B5udne_l%C3%B5hn_full/"> 第二版</a>。
+            </p>
+        </section>
+        <section>
+            <h2>译者言</h2>
+            
+            <p>虽然一直有网友对这本小说进行过一些翻译尝试，但大部分更新较慢或者弃坑，同时部分内容与原文稍有偏差，目前这篇小说还没有正式的中文翻译版本。 <p>秉持着对《极乐迪斯科》这部作品的热爱，我索性自己动手翻译这部小说（基于上述第一版）</p>
+            <p>请大家多多包涵。</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tianhui Li. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openMenu() {
+            document.getElementById("sideMenu").style.width = "250px";
+        }
+        function closeMenu() {
+            document.getElementById("sideMenu").style.width = "0";
+        }
+    </script>
+</body>
+</html>
